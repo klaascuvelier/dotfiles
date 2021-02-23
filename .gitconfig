@@ -2,8 +2,8 @@
 	name = Klaas Cuvelier
 	email = cuvelierklaas@gmail.com
 
-[includeIf "gitdir:~/projects/showpad/"]
-    path = ~/projects/showpad/.gitconfig
+[includeIf "gitdir:~/Projects/Showpad/"]
+    path = ~/Projects/Showpad/.gitconfig
 
 [alias]
 
