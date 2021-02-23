@@ -10,7 +10,7 @@ function setup {
     fi
 
     # backup home directory dotfiles
-    rsync -a --progress --no-perms --exclude ".git/" --exclude ".DS_Store" ~/.[^.]* ~/home-backup
+    # rsync -a --progress --no-perms --exclude ".git/" --exclude ".DS_Store" ~/.[^.]* ~/home-backup
 
     # symlink only root dotfiles into home directory
     for item in $(pwd)/.[^.]*; do
